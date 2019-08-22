@@ -9,3 +9,7 @@
 import platform
 
 print(platform.python_version())
+
+print("add from mac")
+
+print("add from github")
