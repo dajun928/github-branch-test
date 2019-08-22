@@ -9,3 +9,5 @@
 import platform
 
 print(platform.python_version())
+
+print("add from mac")
