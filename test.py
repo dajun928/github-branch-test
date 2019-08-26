@@ -7,7 +7,9 @@
 @func : 
 """
 import platform
+
 print(platform.python_version())
+
 print("add from mac")
 print("add from github")
 print("add from mac02")
@@ -20,5 +22,4 @@ print("add from mac xwh")
 print("add from win wdj")
 print("add from win wdj")
 print("add from mac xwh 01")
-
-
+print("add from win wdj 01")
