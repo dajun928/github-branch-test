@@ -18,7 +18,7 @@ def create_app():
 
     app.register_blueprint(blueprint=user_blueprint, url_prefix='/user')
 
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:123456@127.0.0.1:3306/Htai'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:1234@127.0.0.1:3306/Htai'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     # 设置session密钥
